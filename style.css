@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 200vh;
+}
+li{
+    list-style: none;
+}
+.mainDiv{
+    background-color: lightsalmon;
+    height: 100%;
+    width: 100%;
+}
+.contentDiv{
+    width: 75vw;
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 50px;
+}
+.inputDiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputDiv input{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    width: 50rem;
+    font-size: 24px;
+}
+.inputDiv button{
+    outline: none;
+    border: none;
+    width: 4rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: orange;
+    color: #fff;
+}
+.inputDiv button:hover{
+    background-color: rgb(221, 180, 118);
+    color: #fff;
+}
+.todo{
+    width: 75vw;
+    height: 33%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 2rem;
+    align-items: center;
+}
+.todoDiv{
+    width: 80%;
+    display: flex;
+}
+.domLi{
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    padding: 20px 30px;
+    font-size: 1.3rem;
+}
+.delBtn{
+    outline: none;
+    border: none;
+    width: 7rem;
+    height: 100%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: lightblue;
+    color: #fff;
+}
+.delBtn:hover{
+    background-color: red;
+    color: #fff;
+}
+.checkBtn{
+    outline: none;
+    border: none;
+    width: 7rem;
+    height: 100%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: lightgreen;
+    color: #fff;
+}
+.checkBtn:hover{
+    background-color: limegreen;
+    color: #fff;
+}
+.checked{
+    color: rgb(59, 4, 4);
+    text-decoration: line-through;  
+}
+
